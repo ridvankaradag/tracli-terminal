@@ -6,17 +6,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "tracli": "./bin/index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ridvankaradag/tracli-terminal.git"
   },
   "keywords": [
-    "time",
-    "tracker",
+    "time tracker",
     "terminal",
-    "time",
-    "project",
-    "management",
+    "project management",
     "node"
   ],
   "author": "Rıdvan Karadağ",
