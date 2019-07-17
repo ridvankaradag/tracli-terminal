@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const commands = require('../lib/commands')
+const commands = require("../lib/commands");
 
 const args = process.argv.splice(process.execArgv.length + 2);
 
