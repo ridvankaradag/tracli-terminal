@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/ridvankaradag/tracli-terminal/issues"
   },
-  "homepage": "https://github.com/ridvankaradag/tracli-terminal#readme"
+  "homepage": "https://github.com/ridvankaradag/tracli-terminal#readme",
+  "dependencies": {
+    "cli-table": "^0.3.1"
+  }
 }
