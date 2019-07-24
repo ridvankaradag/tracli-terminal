@@ -25,6 +25,4 @@ tracli list/ -p=id | without parameter list all project/or all task for unique p
 //     return false;
 // }
 
-console.log(args);
-
 commands.app(args);
