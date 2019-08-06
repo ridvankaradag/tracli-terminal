@@ -1,41 +1,36 @@
 const expect = require("chai").expect;
-const commands = require("../lib/commands");
-
 
 describe("Projects", function() {
-    it("it can create a project", function() {
-        const start_projects_length = commands.readDatabase().data.projects.length;
-        const args = ["create", "Test Project"];
-
-        commands.app(args);
-        const new_projects_length = commands.readDatabase().data.projects.length;
-        expect(new_projects_length).to.greaterThan(start_projects_length);
-
-    });
-
-    it("it can delete a project", function() {
-        const start_projects_length = commands.readDatabase().data.projects.filter(x => x.deleted_at === null).length;
-        const last_project = commands.readDatabase().data.projects.filter(x => x.deleted_at === null)[start_projects_length - 1].id
-        const args = ["delete", `-p=${last_project}`];
-
-        commands.app(args);
-        const new_projects_length = commands.readDatabase().data.projects.filter(x => x.deleted_at === null).length;
-        expect(new_projects_length).to.lessThan(start_projects_length);
-    })
-})
+  it("it should list all projects");
+  it("it should create a project");
+  it("it should delete a project");
+  it("it shouldn't delete a project if id doesn't match");
+});
 
 describe("Tasks", function() {
-
-})
+  it("it should list all task by project");
+  it("it should create a task");
+  it("it shouldn't create a task if project id doesn't match");
+  it("it should delete a task");
+  it("it shouldn't delete a task if id doesn't match");
+});
 
 describe("Entries", function() {
-
-})
-
-describe("Reports", function() {
-
-})
+  it("it should start task");
+  it("it shouldn't start task when last entry is 'start'");
+  it("it should pause task");
+  it("it shouldn't pause task when last entry is 'pause'");
+  it("it shouldn't pause task when last entry is 'finish'");
+  it("it should finish task");
+  it("it shouldn't finish task when last entry is 'finish'");
+});
 
 describe("Status", function() {
+  it("it should show active tasks");
+  it("it should show paused tasks");
+  it("it shouldn't show finished tasks");
+});
 
-})
+describe("Report", function() {
+  it("it should show report successfully");
+});
