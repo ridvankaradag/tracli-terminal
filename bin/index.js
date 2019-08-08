@@ -1,6 +1,5 @@
 #!/usr/bin/env node
-
-const commands = require("../lib/commands");
+const App = require("../lib/App");
 
 const args = process.argv.splice(process.execArgv.length + 2);
 
@@ -25,4 +24,5 @@ tracli list/ -p=id | without parameter list all project/or all task for unique p
 //     return false;
 // }
 
-commands.app(args);
+const app = new App(args);
+app.start();
