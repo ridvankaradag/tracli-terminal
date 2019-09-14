@@ -2,7 +2,7 @@
 
 A command line app that tracks your time.
 
-<img src="./resources/preview.PNG" style="box-shadow: 6px 6px 11px #0000002b;margin: 0 auto">
+<img src="https://raw.githubusercontent.com/ridvankaradag/tracli-terminal/master/resources/preview.PNG" style="box-shadow: 6px 6px 11px #0000002b;margin: 0 auto">
 
 ### Requirements
 
