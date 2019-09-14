@@ -78,6 +78,7 @@ tracli report
 #### Output
 
 1 | Todo Project
+
 |# | Task |Created on |Total Time
 |--|--|--|--|
 | 1 | Do Something | Sep 14 2019 | 00:11:42 |
