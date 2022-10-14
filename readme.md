@@ -4,6 +4,9 @@ A command line app that tracks your time.
 
 <img src="https://raw.githubusercontent.com/ridvankaradag/tracli-terminal/master/resources/preview.PNG" style="box-shadow: 6px 6px 11px #0000002b;margin: 0 auto">
 
+<br/>
+<a href="https://www.producthunt.com/posts/tracli?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-tracli" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=167833&theme=light" alt="Tracli - A&#0032;command&#0032;line&#0032;app&#0032;that&#0032;tracks&#0032;your&#0032;time | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+
 ### Requirements
 
 - Node.js
@@ -79,10 +82,10 @@ tracli report
 
 1 | Todo Project
 
-|# | Task |Created on |Total Time
-|--|--|--|--|
-| 1 | Do Something | Sep 14 2019 | 00:11:42 |
-| | | | 00:11:42|
+| #   | Task         | Created on  | Total Time |
+| --- | ------------ | ----------- | ---------- |
+| 1   | Do Something | Sep 14 2019 | 00:11:42   |
+|     |              |             | 00:11:42   |
 
 ### Commands
 
